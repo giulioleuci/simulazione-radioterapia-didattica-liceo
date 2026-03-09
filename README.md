@@ -1,73 +1,37 @@
-# Welcome to your Lovable project
+# Simulazione Radioterapia Didattica (Liceo)
 
-## Project info
+Una Web App interattiva e visiva progettata per la didattica della fisica medica e della radioterapia nei licei. Questo strumento permette agli studenti di comprendere i principi fondamentali del frazionamento della dose, l'interazione delle radiazioni con i tessuti biologici e l'importanza della precisione geometrica nel trattamento dei tumori.
 
-**URL**: https://lovable.dev/projects/f37e0baf-e74a-42f3-b541-ba32c4b22acc
+[![Deploy static content to Pages](https://github.com/giulioleuci/simulazione-radioterapia-didattica-liceo/actions/workflows/deploy.yml/badge.svg)](https://github.com/giulioleuci/simulazione-radioterapia-didattica-liceo/actions/workflows/deploy.yml)
 
-## How can I edit this code?
+**🚀 [Prova la Demo Live qui](https://giulioleuci.github.io/simulazione-radioterapia-didattica-liceo/)**
 
-There are several ways of editing your application.
+## ✨ Caratteristiche Principali
 
-**Use Lovable**
+- **Selezione Anatomica:** Scegli tra diversi preset anatomici (Encefalo, Torace, Addome) con organi a rischio (OAR) e volumi tumorali (PTV) definiti.
+- **Controllo del Fascio:** Regola l'angolo di incidenza, l'energia e l'intensità dei fasci di radiazione.
+- **Multi-Fascio:** Configura trattamenti a fascio singolo o multiplo per visualizzare come la sovrapposizione minimizzi il danno ai tessuti sani.
+- **Visualizzazione Real-time:** Mappa di calore della dose (Isodosi) dinamica basata su calcoli fisici semplificati.
+- **Statistiche di Trattamento:** Analisi quantitativa della dose assorbita dal tumore rispetto agli organi sani circostanti.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f37e0baf-e74a-42f3-b541-ba32c4b22acc) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+L'applicazione è costruita con tecnologie web moderne per garantire prestazioni e accessibilità:
+- **React** (TypeScript)
+- **Vite** (Build tool)
+- **Tailwind CSS** (Styling)
+- **Shadcn/UI** (Componenti interfaccia)
+- **Lucide React** (Iconografia)
+- **Recharts** (Visualizzazione dati)
 
-**Use your preferred IDE**
+## 🎨 Vibe Coding
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Questo progetto è stato generato e rifinito in modalità **Vibe Coding** utilizzando **[Lovable](https://lovable.dev/)**. L'intero processo di sviluppo ha privilegiato un approccio dichiarativo e iterativo per creare uno strumento didattico esteticamente curato e funzionale in tempi brevissimi.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📄 Licenza
 
-Follow these steps:
+Questo progetto è rilasciato sotto la licenza **GNU GPL v3**. Consulta il file `LICENSE` per i dettagli.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f37e0baf-e74a-42f3-b541-ba32c4b22acc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Sviluppato per scopi puramente didattici. Non utilizzare per pianificazioni cliniche reali.
